@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin-right: 5%;
+    margin-top: 20px;
+}
+.ctr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main>a>img{
+    max-width: 440px;
+}
+nav>a>img{
+    max-width: 95px;
+}
+.titleSection>a>img{
+    max-width: 310px;
+}
+.titleSection{
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.other-pages{
+    margin-top: 30px;
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
+footer>p{
+    font-size: smaller;
+}
