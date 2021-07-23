@@ -12,6 +12,7 @@ body{
     align-items: center;
 }
 main>a>img{
+    padding: 20px 5px 5px 20px;
     max-width: 440px;
 }
 nav>a>img{
@@ -34,3 +35,17 @@ nav{
 footer>p{
     font-size: smaller;
 }
+@media (max-width: 480px) {
+    body {
+        margin-right: 1%;
+    }
+  }
+  @media (max-width: 450px) {
+    body {
+        margin-right: 1%;
+    }
+    main>a>img{
+        padding: 20px 5px 5px 20px;
+        width: 90vw;
+    }
+  }
